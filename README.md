@@ -37,7 +37,7 @@ flite "list files in current directory" > files.txt
 result=$(flite "get current time")
 
 # Multi-word prompts (no quotes needed)
-flite what is the weather today
+flite what is the answer to the ultimate question
 ```
 
 ## Features
@@ -72,12 +72,12 @@ Multiple commands:
 ````
 ```fff/execute:
 ls -la
-echo "Done"
+cat README.md
+```
 ````
 
-```
-
 **Interactive mode**: You'll be prompted to confirm each command:
+
 - `y` - Execute once
 - `n` - Skip this command
 - `a` - Always allow this exact command (this session only)
@@ -89,6 +89,7 @@ echo "Done"
 Every line of code is a liability. This is what happens when you actually follow that principle.
 
 No:
+
 - Classes
 - Config files
 - Dependencies
@@ -98,25 +99,26 @@ No:
 - Tests
 
 Just:
+
 - One file
 - Direct API calls
 - Basic tools
 - Simple REPL
 
-
-
-
 ## When to use
 
 **Use flite when:**
+
 - You want simplicity
 - You need scripting/automation
 - You're building pipelines
 - You're debugging
 - You're learning
 
-
 ## License
 
 MIT - Because even the license should be simple.
+
+```
+
 ```
