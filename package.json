@@ -19,7 +19,6 @@
     "url": "git+https://github.com/nerds-with-keyboards/flite.git"
   },
   "license": "MIT",
-  "private": "false",
   "author": "Floyd Noel III",
   "type": "module",
   "main": "bin/flite.js",
