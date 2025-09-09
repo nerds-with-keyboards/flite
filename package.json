@@ -1,0 +1,48 @@
+{
+  "name": "@nwk/flite",
+  "version": "0.0.1",
+  "description": "minimal coding agent CLI",
+  "keywords": [
+    "ai",
+    "code",
+    "terminal",
+    "agent",
+    "cli",
+    "llm"
+  ],
+  "homepage": "https://github.com/nerds-with-keyboards/flite#readme",
+  "bugs": {
+    "url": "https://github.com/nerds-with-keyboards/flite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerds-with-keyboards/flite.git"
+  },
+  "license": "MIT",
+  "author": "Floyd Noel III",
+  "type": "module",
+  "main": "bin/flite.js",
+  "bin": {
+    "flite": "bin/flite.js"
+  },
+  "scripts": {
+    "test": "echo TODO",
+    "lint": "eslint . --fix",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
+    "prettier": "^3.6.2"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  }
+}
