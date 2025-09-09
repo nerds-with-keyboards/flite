@@ -5,7 +5,7 @@ One file. No dependencies. Just bash.
 ## Install
 
 ```bash
-npm i -g @nwk/flite
+npm i -g @nerdswithkeyboards/flite
 ```
 
 ## Setup
